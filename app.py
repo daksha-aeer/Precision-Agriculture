@@ -31,7 +31,7 @@ crop_data['District'] = crop_data['District'].str.title()
 
 # Function to fetch humidity and temperature from a weather API
 def get_weather_data(district):
-    api_key = '2146dd5e46379bba1811371d760fbf18'  
+    api_key = 'api_key'  
     base_url = 'http://api.openweathermap.org/data/2.5/weather?'
 
     # Build API request URL
